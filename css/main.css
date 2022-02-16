@@ -1,0 +1,65 @@
+body {
+    margin: 3rem !important;
+    padding-bottom: 2rem;
+}
+.main {
+    border: 1px solid var(--mdb-info) !important;
+    padding: 1rem;
+    margin: 3rem !important;
+}
+.bottom-info {
+    border-top: 1px solid #505050 !important;
+    background-color: #202020;
+    width: 100%;
+    height: auto;
+}
+.social-icon {
+    max-width: 25px;
+    max-height: 25px;
+}
+.profile-image {
+    max-width: 200px !important;
+    max-height: 200px !important;
+    border-radius: 50%;
+    /* background-color: green; */
+    border: 1px solid #f0f0f0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line-piece-right {
+    border-right: #FFFFFF 2px solid;
+    border-radius: 2px;
+}
+.line-piece-left {
+    border-left: #FFFFFF 2px solid;
+    border-radius: 2px;
+}
+.nav-item:hover {
+    transition: 500ms;
+    background-color: rgba(255,255,255,0.1);
+}
+.socials-lonk {
+    border-right: #FFFFFF 2px solid;
+    border-left: #FFFFFF 2px solid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.road-content {
+    max-width: 100%;
+}
+.btn-hidden {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    width: 100% !important;
+}
+.width-100 {
+    width: 100%;
+}
+.btn-hidden {
+    width: 500px !important;
+}
